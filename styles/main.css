@@ -189,7 +189,7 @@
     font-size: 24px;
     line-height: 30px; }
 
-#copyright {
+.copyright {
   color: #00E2AC;
   text-align: right;
   margin-left: auto; }
@@ -198,7 +198,7 @@
   #intro {
     min-height: 640px; }
 
-  .left-col h2 {
+  #about .left-col h2 {
     font-size: 42px;
     line-height: 40px; }
 
@@ -206,14 +206,14 @@
     margin-left: 20px;
     margin-right: 20px; }
     #footer h4 {
-      padding-right: 20px; } }
+      margin-right: 20px; } }
 @media only screen and (max-width: 992px) {
   .row {
     width: 100%; }
 
-  .col-md-4 {
+  #gallery .col-md-4 {
     width: 100%; }
-    .col-md-4 img {
+    #gallery .col-md-4 img {
       width: 100%;
       max-width: 992px;
       max-height: 900px; } }
